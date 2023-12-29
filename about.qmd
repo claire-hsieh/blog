@@ -1,19 +1,18 @@
 ---
 title: "About"
-image: profile.jpg
+image: flowers-4244452_1280.jpg
 about:
   template: jolla
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com
+    - icon: instagram
+      text: Instagram
+      href: https://www.instagram.com/claire.voyan.t/
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/claire-hsieh-539456174/
     - icon: github
       text: Github
-      href: https://github.com
-
+      href: https://github.com/claire-hsieh
 ---
 
-About this blog
+Hi! My name is Claire and I started this blog to write out some of thoughts that I've had and want to flesh out, hopefully with some commentary. Themes will mostly involve books, the internet, and whatever else comes to mind. Hope you enjoy!

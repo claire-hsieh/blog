@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.353">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2023-12-26">
+
+<title>blog - Infinite Scroll</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">blog</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/claire-hsieh" rel="" target=""><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/claire-hsieh-539456174/" rel="" target=""><i class="bi bi-linkedin" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Infinite Scroll</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">school</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">December 26, 2023</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<p><img src="hed-infinite-scroll.png" class="img-fluid"></p>
+<div class="body_text">
+<ul>
+<li>Term Paper for my Journalism class</li>
+</ul>
+<p>Those born after 1998 have never known a world without Google, much less the Internet. People no longer comb through book upon book for relevant information, instead a few well-placed keywords in a search engine will yield the same result. This younger generation has had to learn not just how to read, but also how not to read, how not to be overwhelmed by the endless amount of content especially since the internet is now accessible through devices to be carried wherever they go.</p>
+<p>“If it’s ever fair to say that anything has ‘changed everything,’ it’s fair to say so about the Internet,” said Virginia Heffernan in her book, “Magic and Loss: The Internet as Art”<em>.</em></p>
+<p>The internet has been one of the most revolutionary technologies of the 20th century, greatly simplifying the process of finding information and enabling users to communicate with people across the globe. It has oh so subtly integrated itself into everyday life, so much so, that some may even consider it a basic human right. Much of the internet’s allure, especially for younger users, can be attributed to social media and the endless stream of content that apps provide, often via a JavaScript plug-in known as the infinite scroll.</p>
+<p>Infinite scroll allows websites to load more pages as users scroll down and is particularly useful for apps providing constant content of similar relevance to the user. The effort required to find more content effectively becomes negligible and (besides the equally endless ads) interruptions such as loading pages are minimized. The infinite scroll combined with algorithms utilized by social media sites such as Tik Tok or YouTube provide an experience as seamless as possible for the user, constantly offering up content similar to what the user has seen in the past.</p>
+<p>Historically, the internet was “hierarchically organized &nbsp;[with] stuff inside of folders inside of folders”, said Dr.&nbsp;Ian Korf, a professor at UC Davis and a user of the early internet, as opposed to the modern-day internet, which”relates a whole bunch of stuff to other stuff. It’s not organized in a way that’s completely hierarchical. It’s going across hierarchies.”</p>
+<p>This restructuring is what allows social media algorithms to find maximally appealing content for users, content similar enough to what they’ve seen in the past to feel relevant, yet novel enough to interest them. According to one <a href="https://hbr.org/2022/01/the-psychology-of-your-scrolling-addiction">Harvard</a> <a href="https://hbr.org/2022/01/the-psychology-of-your-scrolling-addiction">study</a>, participants are 21% more likely to watch related videos than they are to watch unrelated videos and the more one watches, the more likely they are to continue watching. Companies leverage this knowledge of human behavior and psychology to design algorithms that feed users content optimized for engagement and when combined with infinite scroll, which delivers content to users with minimal effort, effectively traps users in an endless loop of content and ads.</p>
+<p>According to <a href="https://scopeblog.stanford.edu/2021/10/29/addictive-potential-of-social-media-explained/">Anna Lembke</a>, author of “Dopamine Nation: Finding Balance in the Age of Indulgence”, the risk factors for addiction are easy access and speedy reward, both of which are characteristic of social media platforms. Beyond design, content on these platforms appeals to the innate human need to connect and seek out novelty. Working together has been a key to our species’ survival and ability to flourish. When we make human connections, whether that’s through watching videos or seeing posts, the brain releases dopamine, incentivizing us to watch another video or to scroll onward. And the simple ease with which users can continue watching videos, each one a small dopamine hit, makes it incredibly difficult to stop.</p>
+<p>According to <a href="https://news.gallup.com/poll/512576/teens-spend-average-hours-social-media-per-day.aspx">Gallup</a>, teens spend an average of 4.8 hours on social media a day and this excessive screen time can be especially damaging for youth, whose brains are still developing. According to one <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5839336/">study</a>, excessive screen time has been found to disrupt sleeping habits, causing both shorter sleep durations and poorer sleep quality. The use of social media has also been shown to be <a href="https://www.sciencedirect.com/science/article/pii/S0165032720306182?casa_token=0iCbL9c-M0YAAAAA:QzfqH6Zl87c57KKKGPhTt2oB83EFOfMV_RIy7ftVRno-LBYWgQXb5KXso4Re0lI8hiuaSIBK">associated with an increased risk of self-harm and depression</a> and lower levels of self-esteem in females.</p>
+<p>“The overuse of social media can actually rewire a young child or teen’s brain to constantly seek out immediate gratification, leading to obsessive, compulsive and addictive behaviors,” said Dr.&nbsp;Nancy DeAngelis, Director of Behavioral Health at Jefferson Health, “This is what can make mental health disorders such as anxiety, depression, ADHD and body dysmorphia worse.”</p>
+<p>The serious health consequences of social media addiction pose an urgent public health concern. But what makes matters worse is that the addictive nature of social media was designed with the intention of ensnaring user attention. In 2014, Facebook secretly conducted a <a href="https://www.pnas.org/doi/full/10.1073/pnas.1320040111">study</a> measuring their ability to influence users’ emotions via users’ Facebook feed, which they termed “emotional contagion”, by controlling the amount of positive and negative content that a user was shown. Besides the questionable ethics behind conducting the study in the first place, it’s clear that Facebook is aware of their power to manipulate users and are willing to exercise it without remorse.</p>
+<p>Though social media may prove harmful to user’s mental and physical health, social media companies have much to gain in creating such an addictive product. The more time a person spends on a social media site, the more ads they will see, and the more data can be collected. And while collecting user data for targeted ads may seem innocuous enough, it can be used for more nefarious purposes, such as mass surveillance. Just look at China’s social credit system, which ranks citizens based on their behavior and may punish citizens with <a href="https://www.businessinsider.com/china-social-credit-system-punishments-and-rewards-explained-2018-4">slow internet or flight bans</a>.</p>
+<p>“Social media platforms live and die on user engagement and the sale of their users’ data. That’s their entire business,” Lilith Marinho Davis, a blogger, said.</p>
+<p>In this era of near limitless information, attention is the resource that’s in short supply and seen high demand, not information or computing power. In one <a href="https://www.un.org/sites/un2.un.org/files/attention_economy_feb.pdf">UN policy brief</a>, the attention economy was estimated to be worth US $7.1 trillion and 437 billion hours in 2016. Social media companies are able to commoditize attention by attracting users to their platform, which is often free to use and distribute content on.</p>
+<p>There is a common internet adage which says, “If something is free, you’re the product” and nowhere is this more true than on social media sites and suddenly their tactics to retain user attention at whatever costs start to make more sense.</p>
+<p>So user attention is a valuable commodity that is often sold to advertising companies. But is this practice as detrimental as it seems? From a corporate perspective, advertising does wonders for their bottom line and is virtually a staple of any economy based on capitalism. Google suggests that <a href="https://economicimpact.google/methodology/">for every dollar companies invest in Google Ads, they generate an average revenue of two dollars</a>. But it’s important to remember that corporations differ from individuals, corporations’ primary objective is not to foster community or enhance people’s lives. Instead, their focus is on increasing <a href="https://www.investopedia.com/terms/s/shareholder-value.asp#:~:text=Shareholder%20value%20is%20the%20value%20given%20to%20stockholders%20in%20a,the%20use%20of%20its%20assets.">shareholder value</a>, often achieved by boosting profits over time. From this standpoint, advertising is a powerful tool. It not only generates profits but spreads brand awareness and influences consumer decisions. On a broader scale, advertising has significant economic benefits. It stimulates consumption, contributing to economic growth, fosters competition and innovation and facilitates economies of scale.</p>
+<p>Advertising can benefit users too, no matter how much people may loathe their presence; Advertising revenue is what supports content creation, the very thing that draws people to the internet. Without it, much of the content on the internet could not exist or may be of poorer quality. But the problem is the sheer quantity of bad advertising, ads that promote irrelevant products or are outright manipulative.</p>
+<p>It has become so much of a problem that <a href="https://www.youtube.com/watch?v=01PUSrLCvcM">200 million</a> people worldwide are using ad block to solve it. The internet has seen not only an invasion of more ads, but also longer, inescapable ads (ie. 15 seconds-long, unskippable ads before, during, and after YouTube videos) that seriously detract from the online experience. <a href="https://www.nytimes.com/2019/10/28/business/media/advertising-industry-research.html">It takes no stretch of the imagination to say that people hate ads</a> <u>;</u> they’re often irrelevant and interruptive, getting in the way of content people want to see. Increased advertisement expenditure has also been <a href="https://hbr.org/2020/01/advertising-makes-us-unhappy">shown to be correlated with a decrease in a nation’s life satisfaction</a>, which is rather intuitive since ads are designed to create desire and dissatisfaction, since happy and content people don’t tend to buy unnecessary items. &nbsp;&nbsp;</p>
+<p>The internet is what it is because advertisers and social media companies are driven towards profit and infinite growth, to the detriment of public health and general happiness. Profit is the language of capitalism and infinite growth its goal. Capitalism has perpetuated the idea that infinite growth is not only possible, but desirable, and that all companies that participate in the economy should strive to achieve infinite growth.</p>
+<p>Everyone alive in the year 2023, has only experienced consistent, global population growth; the S&amp;P 500 has an average return of 7% year after year, and this mindset of infinite growth is so ingrained in the common psyche of the US that people base their retirement funds off an expectation of continuous stock market growth and interest rates. But the world has a finite amount of resources and production of any manufactured product has <a href="https://www.scientificamerican.com/article/the-delusion-of-infinite-economic-growth/">environmental costs</a> (habitat destruction, biodiversity loss, and pollution), much of which go unaddressed. This single-minded dedication to growth and profit allows companies to disregard environmental impacts, the same way social media companies can set aside moral qualms about manipulating users, to the detriment of their mental and physical health.</p>
+<p>Strangely enough, social media is also a major way to connect people seeking to make change in the world and a tool to disseminate raw and unfiltered information. But social media algorithms aren’t optimized for disseminating truthful, unbiased journalism, they’re optimized to engage users and the content that does this the best is often highly “incendiary, controversial, or polarizing”, according to a <a href="https://www.un.org/sites/un2.un.org/files/attention_economy_feb.pdf">UN policy report</a>. In recent events, the war between Israel and Hamas has shocked and horrified the world, not only through videos of rockets being launched at Gaza, but the destruction happening on the ground, which people around the world can witness firsthand through the eyes of those whose homes are being destroyed and loved ones are harmed. This isn’t to say that these events are falsified or exaggerated but that part of the reason this issue has gone viral is because social media algorithms select for such provocative content. As more <a href="https://www.pewresearch.org/journalism/fact-sheet/social-media-and-news-fact-sheet/#:~:text=News%20consumption%20on%20social%20media&amp;text=Three%2Din%2Dten%20U.S.%20adults,%25">people rely on social media as their source of news</a>%20or%20Reddit%20(8%25).), it can bias the information that people use to stay informed. The divide in American politics supporting or against Israel is not only a <a href="https://www.brookings.edu/articles/the-generation-gap-in-opinions-toward-israel/">generational divide</a> but also as a divide in <a href="https://www.axios.com/2023/10/26/generational-divide-on-the-israel-hamas-war">how they receive information</a> with younger people being more likely to use social media as a source of news.</p>
+<p>While older and younger generations may disagree on how the US should respond to the Israel-Hamas conflict, they can agree that the <a href="https://www.pewresearch.org/politics/2023/09/19/money-power-and-the-influence-of-ordinary-people-in-american-politics/">average citizen has too little power</a> and lobbyists have too much. The arsenal that people do have at their disposal is their freedom of speech — their ability to protest and voice their opinions — but if major newspapers (NYT, The Atlantic) are all asking the same question, <a href="https://www.newyorker.com/magazine/2017/08/21/is-there-any-point-to-protesting">“Is There Any Point to Protesting?”</a>, it doesn’t really matter what the answer is, does it? If this is the one tool people have to influence the world, then it should be better than something that <em>maybe</em> works or has stronger results than the “<em>small, yet observable changes”</em> one <a href="https://www.socialchangelab.org/_files/ugd/503ba4_052959e2ee8d4924934b7efe3916981e.pdf">study</a> states on how activism impacts public policy changes. While the Black Lives Matter movement in 2020 attracted much attention to police brutality and racism in America, it had little to no impact on police funding. And more, the <a href="https://www.triplepundit.com/story/2022/protest-movements-work-study/754406">LA and NYC police department has actually increased funding since 2020</a>. While every US citizen has the right to vote, it can be easy to feel that voting has little impact on politics which can be clearly seen in the 2016 election when Hilary Clinton won the popular vote but was <em>not</em> elected as president.</p>
+<p>Despite this, the average citizen is not entirely powerless. While presidential elections do get a great deal of press coverage, much of the politics citizens do have a say in is at the local level, and likewise, this is the type of government that people encounter the most. Local government may not be as flashy as the political battleground in Washington, but local government is what provides the services that can make a city pleasant to live in – from keeping streets free of potholes to ensuring that emergency services are there should residents need it. People are encouraged to vote on public decisions made by their community and at this level of government, your vote does feel like it matters.</p>
+<p>While social media can be addictive to the point of being a public health issue, the same factors that lend itself to addiction, can draw attention to problems in the world and gather support for change. Social media companies and all the underlying reasons for why they’re obsessed with user data and attention (advertising, capitalism, infinite growth) are not going to change anytime soon, so it is on the users to recognize this and be aware of that, not only for their own health but also to be informed of the powers who attempt to manipulate user behavior and vie for their attention. Staying informed in an age of constant change (much of it negative) can be difficult and draining, especially on platforms that fight to keep users scrolling (doom scrolling) but it is a civic responsibility. Despite feeling insignificant, especially in national politics, the average citizen is not powerless and continuing to exercise rights, like freedom of speech and voting, especially at local levels, can lead to progress.</p>
+</div>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<script src="https://utteranc.es/client.js" repo="claire-hsieh/blog" issue-term="pathname" theme="github-light" crossorigin="anonymous" async="">
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

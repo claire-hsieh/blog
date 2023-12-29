@@ -1,0 +1,13 @@
+---
+title: "lurking"
+date: "2023-12-27"
+image: "210606_AddictiveSocialMedia_FINAL_0.png"
+categories: [internet]
+toc: true
+
+comments:
+  utterances:
+    repo: claire-hsieh/blog
+---
+
+As an avid reader of Wired, I think about the internet *a lot*. I'm a bit sad to report it's where I spend a good portion of my day, either studying or consuming social media. But it doesn't matter which since with both, I am a consumer of media. I've always had a voracious appetite for reading, whether that's through a screen or on paper, but with the internet, oh boy, it's a never ending buffet of videos and audio and good old-fashioned text. 
