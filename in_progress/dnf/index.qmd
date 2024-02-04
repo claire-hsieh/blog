@@ -1,0 +1,16 @@
+---
+title: "Reviewing dnf books"
+date: "2024-1-18"
+image: ""
+categories: [books]
+toc: true
+
+comments:
+  utterances:
+    repo: claire-hsieh/blog
+---
+
+
+- is it moral to review did-not-finish books
+	- on one hand, it's a bit like judging someone after knowing them for five min. 
+

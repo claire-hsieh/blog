@@ -1,0 +1,13 @@
+---
+title: "The Silent Takeover of Apple"
+date: "2024-02-01"
+categories: [internet]
+toc: true
+
+comments:
+  utterances:
+    repo: claire-hsieh/blog
+---
+
+I looked around the classroom the other day. 
+And all I saw was sleek, silver laptops, embedded with a half-eaten apple. 

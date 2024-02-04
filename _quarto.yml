@@ -6,7 +6,9 @@ website:
   title: "blog"
   navbar:
     right:
-      - about.qmd
+      - href: about.qmd
+      - text: "Daily Entries"
+        href: "random_thoughts/"
       - icon: github
         href: https://github.com/claire-hsieh
       - icon: linkedin

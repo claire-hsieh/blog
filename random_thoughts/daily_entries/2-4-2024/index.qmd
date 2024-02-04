@@ -1,0 +1,15 @@
+---
+title: "1"
+date: "2024-02-04"
+image: "Screenshot 2024-02-04 152705.png"
+categories: 
+toc: true
+
+comments:
+  utterances:
+    repo: claire-hsieh/blog
+---
+
+![](Screenshot 2024-02-04 152705.png){fig-align="center" width="184"}
+
+Success today was measured by one not-at-all burned and v french toast tasting French Toast (I am normally a hazard in the kitchen, so this was a nice surprise) and rest of morning was spent working on a perl script where I was able to cut the time spent by 70% from the original python script. Am feeling v proud of self as not a perl programmer normally. Hurricane level wind and rain outside, or at least by my soft, Californian standards. Was admiring the sheer force of nature, throwing around tree branches, and cute neighbor boy in the building across from mine, who was also at the window, probably glad he did not have to be outside. Did not look too obviously as did not want to seem like creep. Begged off working on a STA group project to be home, as the rain would surely have wrecked laptop if I had gone out. The rain did let up for a couple hours, so I went to the Davis library for the monthly book sale. Got *Love in the Time of Cholera* as it's on my mental buy list (books I do not have to debate buying if I see it at a used book store). Got whacked in the face by a tree on the way back. Stopped by Trader Joe's and bought Fig Butter and anchovies. Guess today's a day for trying new things.

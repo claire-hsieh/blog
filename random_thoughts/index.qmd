@@ -1,8 +1,8 @@
 ---
-title: "blog"
+title: "Daily Entries"
 listing:
   contents: 
-    - "posts"
+  - "daily_entries"
   sort: "date desc"
   type: default
   categories: true
