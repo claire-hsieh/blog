@@ -1,0 +1,19 @@
+---
+title: "2"
+date: "2024-02-16"
+image: "LesMisLogo.png"
+categories: 
+toc: true
+
+comments:
+  utterances:
+    repo: claire-hsieh/blog
+---
+
+![](LesMisLogo.png){fig-align="center" width="184"}
+
+I've been listening to Les Mis everyday for at least the past two weeks. Can't report any change in mood besides being a bit more anxious and tired. I think my resting bpm is at least 5 beats higher than normal. It kills me that my favorite character is Eponine, who deserved so much more. Having to live with heartless, money-hungry thiefs like her parents. Considering the environment she grew up in, I think she turned out v. well. And she falls in love with a nice chap, Marius, who doesn't love her back?! And a mere five songs after her death throes, after all his friends have also died, Marius is marrying Colette.  What a cruel world.
+
+
+
+

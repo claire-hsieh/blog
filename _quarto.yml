@@ -13,9 +13,12 @@ website:
         href: https://github.com/claire-hsieh
       - icon: linkedin
         href: https://www.linkedin.com/in/claire-hsieh-539456174/
+  google-analytics: "G-C03LB9NEHL"
 format:
   html:
-    theme: pulse
+    theme: 
+      light: pulse
+      dark: darkly
     css: styles.css
 
 editor: visual
