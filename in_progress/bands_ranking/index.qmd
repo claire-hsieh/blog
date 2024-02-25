@@ -1,0 +1,23 @@
+---
+title: "Bands Ranked"
+date: "2024-02-18"
+image: "Screenshot 2024-02-18 202005.png"
+categories: 
+toc: true
+
+comments:
+  utterances:
+    repo: claire-hsieh/blog
+---
+
+# Bands
+
+## 1. Peach Pit
+
+## 2. The Backseat Lovers
+
+## 3. Cage the Elephant
+
+- good music, even better live (according to Youtube), isn't number 1 because they just *had* to get themselves all wrapped up in legal issues, who even carries guns in NY anymore? and have stopped touring
+
+

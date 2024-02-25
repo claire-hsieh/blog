@@ -1,0 +1,19 @@
+---
+title: "4"
+date: "2024-02-25"
+image: "Screenshot 2024-02-25 135254.png"
+categories: 
+toc: true
+
+comments:
+  utterances:
+    repo: claire-hsieh/blog
+---
+
+![](Screenshot%202024-02-25%20135254.png){fig-align="center" width="184"}
+
+I get addicted easily and this may perhaps be the worst time to start gaming again but I just can't help it. Used to play Pokemon Tower Defense all the time as a kid (basically the same as Pokemon except you battle in a tower defense style match). For whatever reason, the online version no longer works (my guess is because Adobe Flash is no longer around / too many people are playing and the servers are overloaded) and I had to download the .swf file and an app to run the file. It's actually incredible that this game (which I think is incredibly fun and full of things to do) is less than 10mb. So tempted to try reverse-engineering the game and take a look at the inner workings of the thing. I am very easily influenced by people / media and ever since I read "Tomorrow, Tomorrow, and Tomorrow" I've wanted to make a game as a pet project. Too bad I've got midterms and presentations this week. :(
+
+In other news, I am 100% convinced that an AI takeover will occur within the next 5 years (or perhaps decade). Open AI has released a new AI model, Sora, which can generate video from text. And not creepy, hallucinogenic videos either (think early, pre-Dall-E image generators) but fairly realistic videos that stick pretty closely to the given prompt too! I am terrified. And appropriately, news outlets started releasing videos on how to spot discrepancies in the videos to tell them apart from "real" videos filming the "real" world. This got me thinking, what is it that is inherently so special about the physical world that sets it apart from the imagined (human / machine generated). Sure these videos teaching you to spot the "fakes" focus on physical aspects, a spoon appearing / disappearing, impossible placements of limbs, historical inaccuracies, etc, but I feel like there has to be more than that.
+
+Today, I was hanging about the sheep barn, just looking at the (dead) vinyard and some enormous rabbits frolicking about, and I just thought to myself, "I could just look at this all day, if I didn't have other obligations" and I'd never think that about a simple image / video (real or otherwise). There's just something special about reality, being present in a space / time that I don't think video / machine-imagined videos could recreate. Of course this doesn't really solve / answer any problems / questions of created videos. But I think this presence is something that the best photographers strive for (and sometimes achieve) and might be what separates a real vs fake image.
