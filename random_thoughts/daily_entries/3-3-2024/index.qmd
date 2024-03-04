@@ -1,0 +1,27 @@
+---
+title: "5"
+date: "2024-03-03"
+image: "Screenshot 2024-03-03 210118.png"
+categories: 
+toc: true
+
+comments:
+  utterances:
+    repo: claire-hsieh/blog
+---
+
+Cage the Elephant dropped a new single!!! This is the singular best news I have received all week, among other things, and feel compelled to share it here.
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/21ZJFA0LBmAPrqP9RADbYH?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+
+</iframe>
+
+Tbh, the only reason I started a blog was because I can't stop thinking about this Japanese blog I came across when I was looking for a very particular poem by William Gibson which I saw in a movie, [A River's Edge](https://www.imdb.com/title/tt7476946/). (Don't remember much about the movie except a vague sense of melancholy, almost like a more depraved version of Stand By Me?) Anyway, the movie ended with the poem, [The Beloved](http://blog.livedoor.jp/cynar_c/archives/23989412.html) being read aloud by the main characters. I love this poem and it's just seems so strange to me that I can't find anything at all about this poem on the internet. For a science fiction author who was so enthusiastic about the internet, it seems endlessly ironic that I'm unable to find anything on Gibson's poems on the internet. (All except for [Agrippa](https://agrippa.english.ucsb.edu/category/the-book-subcategories/the-poem)) which was *meant to be read once and deleted* as the poem was stored on a disc and "deleted" as the poem scrolls across the page!)
+
+Anyway, this was months ago, but I hunted down this art book which supposedly had the other two poems accompanying The Beloved. Can't remember what the book was but for once I could not find an online copy and actually had to get the book shipped to the Davis library and borrow it then. Have never appreciated the true difficulty of finding information when the internet fails until now. My poor parents and their entire generation, actually learning from textbooks instead of Youtube and a random assortments of website. And just in case that very particular art books disappears from the face of the earth, I have attached the Gibson poems here.
+
+![](IMG_2170.jpg)
+
+![](IMG_2169.jpg)
+
+![](IMG_2172.jpg)
