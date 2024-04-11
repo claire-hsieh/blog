@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/science/index.html",
       "/posts/fav_books/index.html",
       "/posts/term_paper/index.html"
     ]
