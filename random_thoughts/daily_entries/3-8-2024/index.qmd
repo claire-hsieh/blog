@@ -1,0 +1,15 @@
+---
+title: "6"
+date: "2024-03-16"
+image: "Yellow-Crocus.jpg"
+categories: 
+toc: true
+
+comments:
+  utterances:
+    repo: claire-hsieh/blog
+---
+
+![](Yellow-Crocus.jpg){fig-align="center" width="300"}
+
+I used to collect plants (and press them) and I'm pretty sure I've got just about every native California species out there. But now I can't go out and see a plant without categorizing it as something I have or do not have. This seems to me like peak capitalist thinking, not being able to see an object (even nature!) without wanting to own it or classify it as something not worth owning.

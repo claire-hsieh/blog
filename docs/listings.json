@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/science/index.html",
       "/posts/fav_books/index.html",
       "/posts/term_paper/index.html"
     ]
@@ -9,6 +10,7 @@
   {
     "listing": "/random_thoughts/index.html",
     "items": [
+      "/random_thoughts/daily_entries/3-8-2024/index.html",
       "/random_thoughts/daily_entries/3-3-2024/index.html",
       "/random_thoughts/daily_entries/2-25-2024/index.html",
       "/random_thoughts/daily_entries/2-18-2024/index.html",

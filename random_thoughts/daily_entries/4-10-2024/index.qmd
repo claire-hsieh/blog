@@ -1,0 +1,19 @@
+---
+title: "7"
+date: "2024-04-10"
+image: "Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg"
+categories: 
+toc: true
+
+comments:
+  utterances:
+    repo: claire-hsieh/blog
+---
+
+![](Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg){fig-align="center" width="300"}
+
+Have never been as close to death as I did this weekend. Went hiking with friends and (I blame this on the invincibility of youth) but decided to run full-speed down this unexpectedly steep hill that went on for much longer than expected. At some point I tried to slow down, but could feel myself about to tumble if I tried so I just let gravity take me where it will. And I just fell head over heels into some bushes. Did not realize until later when I checked my phone that I was going (at max speed) 19 mi/hr. There was a very non-zero chance of breaking bones (including my neck) and I couldn't really use my right arm for a day. I can just feel my common sense skill ringing in some xp points. Will not be trying this again.
+
+I've thought about this a lot but it's so strange to me that humans as a species (and I suppose all animals) must learn the same lessons over and over again. Parents try and teach their kids but with some lessons, they'll simply shake their heads and say, you need to experience it for yourself to understand. And I think this is one of those lessons. Nothing curbs recklessness like a good dose of fear of death.
+
+(Yes I know the image is of Everest. No I did not climb Everest, I "climbed" (v loose use of the word since this was a very flat trail) Mt. Helena, [trail here](https://g.co/kgs/XoQw22R))
