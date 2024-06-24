@@ -1,0 +1,9 @@
+---
+title: "10"
+---
+
+Currently at a bit of a crossroad in my life, not in terms of decision making (choosing a career and whatnot that many seniors seem to be doing) but more in the sense that I'm learning a lot of new topics and have some catching up to do. All this to say that I came across a few instances of people having leave to study a topic of their choice (Andrew Karpathy and this incredibly random blogpost about biohacking where he takes the opportunity to study bio. and Timothy May (may he RIP) and his post-retirement reading spree where he simply *read* all day after he retired from Intel.
+
+But back to the point I was trying to make, now that I know I'll be working on ML for the next year, it's like I've been given leave to study this subject to my heart's content *with* the knowledge that it's not some personal whimsy with no real application to my life. Not to say that some subjects are more useful than others (I don't subscribe to the STEM superiority nonsense). And for some reason, it bothers me to think that given the freedom to do whatever I'd like, I'd *still* choose to study. And frankly, I'm \~75% confident that half the things I read will be forgotten by the next day. It seems like a bit of a useless task (albeit one I choose to do of my own free will) but it's *very* much like pouring water into a leaky bucket. So why bother?
+
+I've given a lot of thought to this, but I honestly can't put into words why I enjoy the things I do. I've met maybe one or two people in my life who have had interest in as broad a spectrum as I do and care to talk about any of it (right now it's hacktivism, cybersecurity, game dev. and ofc! ML!!) but biology, physics, and math will always be something I think a great deal about and ALWAYS down to monologue on.

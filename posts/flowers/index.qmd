@@ -1,0 +1,43 @@
+---
+title: "Flowers: A Beautiful Waste of Space"
+date: "2024-06-18"
+image: "IMG_6261.jpg"
+categories: []
+toc: true
+
+comments:
+  utterances:
+    repo: "claire-hsieh/blog"
+---
+
+![](IMG_6261.jpg){fig-align="center" width="533"}
+
+As someone with absolutely zero artistic capabilities, I LOVE pressing flowers. It's simple, easy, and I swear there is a science to it. If the need to make art is borne out of a desire to preserve some natural beauty in the world, then pressing flowers is the quintessential act of creating art since you're not not simply creating a representation of the object as you would in say painting, but rather preserving the object itself.
+
+I suppose it could be argued that by pressing flowers, you can't truly capture the beauty of flowers in the moment. Pressing / drying flowers almost always permanently alters the color (usually duller / less vibrant, whites inevitably darken to an unappealing brown), and hammers out any interesting shape (i can't help but think of projections from linear algebra). (Ah I'd love to go on a tangent about how going in the opposite direction (from 2D to 3D) is at the crux of what makes electron microscopy (like Cryo-EM) so difficult). But with painting or any form of fine art really, 3D structure or the appearance of it anyway is somehow preserved (albeit from a single perspective only). It's very much a trick, one of humanity's finest imo, how we can take a 3D object / scene, recreate it on a 2D surface, yet still maintain the appearance that we're looking at the original 3D view. But this takes skill, years of experience, a trained eye, and steady hands. Pressing flowers is a feat anyone could do to create an albeit imperfect image of nature.
+
+A happy medium then might be Gyotaku, the Japanese art of creating prints by dipping sealife in ink and pressing them to a page. You don't preserve the object itself, in fact gyotaku was originally used by fisherman to record their catches, but the fish / whatever strange sea creature is used in the creation of the print.
+
+[![from wikipedia](Yuta.jpg){fig-align="center" width="627"}](https://en.wikipedia.org/wiki/Gyotaku)
+
+It was nothing more than a whim when I first started pressing flowers in high school. But I do remember writing about it in my college essays.
+
+Now though, I can't walk around a city, park, or any sort of outdoor venue without looking at the flora. Even after 4 years at UC Davis, I still don't remember some of the names of buildings but I *do* the location of every pomegranate tree within a mile radius of the school. In my head, plants and natural landmarks are what people are built to remember. Yes, language is a uniquely human trait but it's also perhaps one of the most recent developments in the evolution of the brain. It exists almost entirely in our heads (words have no meaning unless they're interpreted by some thinking creature), and so have less visual and spatial cues to trigger the memory of whatever meaning the word holds. We live in a physical world rich with sensory information: sights, sounds, smells; These are the things that we've been interested in for millennia and it's just natural to think about the world in the form that we experience it instead of abstractions (words) that we invent.
+
+And I suppose there are some parallels that can be drawn between spatial & visual memory vs factual memory and flower pressing vs fine art. Spatial memory and flower pressing deals with objects directly (memorizing the trees / buildings instead of names or pressing flowers rather than drawing them) and factual memory and fine art deal with the objects indirectly (referring to a building by name or painting a flower). Just a thought.
+
+I took a class on flowers and the thing that stuck with me the most (besides the simple joy of being able to name random flowers) was that a product (flowers) which serves no other purpose besides looking pretty then slowly wilting (so a temporary object of beauty) could be a multi-billion dollar industry and is so deeply integrated into society. Like I can't imagine Mother's day without chrysanthemums and azaleas or Christmas without poinsettias. I've always imagined civilization to be a machine optimized for efficiency (or a captalistic society anyway). The market is such a ruthless battle for survival, businesses that are inefficient or produce substandard products are bound to die off. But flower industries? They're thriving! despite the fact that they produce a good that's neither necessary for survival nor do they make our lives easier.
+
+Ironically, I used to think that buying flowers was such a waste of money (they'll inevitably wilt and die, you can't eat them or do anything practical with them, as you can with single use plastic). I say ironically, because I am obsessed with flowers when they're still attached to the plant. But I think pressing flowers makes you intimately acquainted with their fleetingness, it's a rush to get home before the petals wilt or start to brown. To me, this obsession with function is a bit of a cultural phenomenon. In my household, we never bought bouquets when I was growing up, though we did splurge once when we went to a neighbors' place for Thanksgiving, which thinking back on it, the flowers did serve the purpose of being a gift, so not as frivolous as I thought.
+
+Asian culture is a bit too obsessed with stark functionality and getting ahead (both in career and social circles, imo. But I live in California not Asia, so it's not really a problem *I* have to deal with and can go on picking flowers and getting mediocre grades without having a quarter life crisis.
+
+Final thought. I feel like there's something to be said about pursuit of beauty and its relationship to pursuit of knowledge. Reading a well-written, interesting paper (my favorite [paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7149360/)) lights up the same part of my brain that reading literary masterpieces (ie The Goldfinch or Ender's Game) does. What this means (for me anyway) is that pursuit of knowledge is about generating interesting ideas (which are marvels in their own right, just as a artistic masterpieces are) or that revealing some new tidbit about the world is somewhat akin to how art pieces reveal a meaning that the artist is trying to portray. Both are about discovery. And what could be more beautiful than discovering nature.
+
+Finished undergrad with this gorgeous bouquet which I suppose is classic and very standard, but for me I feel like it's very fitting. I've summed up the past couple with some flowers I have been compulsively picking and drying.
+
+![The bouquet in question](IMG_6257.jpg){fig-align="center" width="225"}
+
+![My flower collection from high school](IMG_6258.jpg){fig-align="center" width="225"}
+
+![](IMG_6260.jpg){fig-align="center" width="530"}

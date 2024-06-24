@@ -10,7 +10,6 @@ comments:
     repo: claire-hsieh/blog
 ---
 
-
 The other day I watched a video on the evolution of halls and back when houses used to be one room, halls simply referred to the entirety of that room. But then we started subdividing our houses, adding living rooms, bedrooms, kitchens, etc. and the meaning of the "hall" was shrunk down to only the remaining, unlabeled space.
 
 Anyway, I had the thought today that this feels a bit like the evolution of animal body plans. If you trace our evolutionary history far back enough, there was a point at which our ancestor was just a blob of cells, no differentiation, but then they start evolving into unique structures, and all that internal "space" (I guess it's not space since I'm talking about cells) gets cut up and labelled (organs and tissues and cell types). Now that I think about it, hallways aren't really analogous, since this seems to be the opposite. Evolution of body plans is more like the evolution of rooms. Silly me.

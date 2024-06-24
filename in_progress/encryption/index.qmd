@@ -1,0 +1,42 @@
+---
+title: "encryption?"
+date: "2024-05-16"
+image: ""
+categories: [internet]
+toc: true
+
+comments:
+  utterances:
+    repo: claire-hsieh/blog
+---
+
+-   overview of rsa
+
+    -   i think it's so cool that it was indep dev. 2x
+    -   must mean it was the next logical step in cryptography right?
+
+-   little bit on DES and how the NSA wanted to LIMIT its ability to encrypt communications
+
+    -   WHEN ELSE would you ever want to limit quality
+
+-   US -\> v. pro free speech where it's more like, EVERYONE has the right to hear what you say
+
+    -   right to privacy?
+
+-   when codebreakers have pulled ahead of code makers -\> creates a gap where privacy can be violated
+
+    -   almost like evo a bit
+
+-   when does it go from enabling effective law enforcement to surveillance state
+
+    -   why is a surveillance state so bad anyway (obv. bad but besides gut response to constant oversight. )
+
+-   checks on govt power
+
+-   if can, would like to tie in to evo. / bio response to surveillance
+
+    -   like we evolved to be social creatures -\> means we req. checks on indiv. power by group (gossip)
+    -   leadership inevitable (even monkeys have hierarchies)
+    -   suppose their power comes from other monkeys obeying them
+    -   govt must also be inevitable
+    -   their power comes from resources? + ability to enforce laws (phys. power in form of arms? but ppl also have weapons (in US anyway), )
