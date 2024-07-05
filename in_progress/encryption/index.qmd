@@ -25,7 +25,7 @@ comments:
 
 -   when codebreakers have pulled ahead of code makers -\> creates a gap where privacy can be violated
 
-    -   almost like evo a bit
+    - almost like evo a bit
 
 -   when does it go from enabling effective law enforcement to surveillance state
 

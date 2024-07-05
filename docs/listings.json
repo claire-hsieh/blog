@@ -3,7 +3,9 @@
     "listing": "/index.html",
     "items": [
       "/posts/flowers/index.html",
+      "/posts/science/index.html",
       "/posts/fav_books/index.html",
+      "/posts/lurking/index.html",
       "/posts/term_paper/index.html"
     ]
   },

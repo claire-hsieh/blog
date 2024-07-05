@@ -1,0 +1,18 @@
+---
+title: "the 50s"
+date: "2024-06-24"
+categories: [internet]
+toc: true
+
+comments:
+  utterances:
+    repo: claire-hsieh/blog
+---
+
+I recently finished a book ([Bell Labs]()) (half the posts are essentially going to be thoughts I've had after finishing some book I'm afraid) which was about (you guessed it!) Bell Labs. One of the comments by a former employee about this institution was that we could never have anything quite like it. There was this unique mix of great management, great people (the great and famous ones: Shannon! Baker, Shockley, Kelly, on and on and on (apparently Nyquist worked there as well! thought he was mentioned only in passing, (well known in the world of signals?? **I think, need to fact check**))), a unique organization which allowed and encourage people to freely mingle and ideas to form as a result, freedom to pursue interesting projects (including in basic science which I believe is unheard of in industry research), and a derth of problems to solve (telecommunications is an insanely complicated field).
+
+But my thought was, what about the people then made them unique thinkers and problem solvers. Of course, genius and passion are part of the equation but the start of the Young Turks (the most famous Bell Labs giants: ...) career at Bell Labs began in the 50s. So these were people who had grown up in maybe the 30s and 40s, peak Depression era I would assume.
+
+I think there's just something about growing up in the pre-mobile-phone era that made people a little more resourceful and a little more introspective which translates into being great physicists and engineers, wonderful at thinking up ideas and bringing them to life. There was something a professor said to me once, that younger generations look outwardly (by googling / asking) when they have a question while older generations look inward (thinking about the question) and I think that sums it up (to an extent!). I think the other problem is that everything we see has become so standardized (think of the lack of variety we see in products, the branding) and freely available (there's really no need to build our own furniture)
+
+I'm just thinking of how people used to build their own radios, how (what's his name) would build little, single person glider planes out on the California coast, how the o.g. hackers at MIT (the TMRC T... Model Railroad Club) built an incredibly intricate model railroads with a huge mess of mechanical relays and ... (insert image). This is not to say that people don't build things anymore (used to watch this guy (fighting robots guy, worked at Tesla)) but I feel like it's so easy to find 3d printing templates or origami designs
