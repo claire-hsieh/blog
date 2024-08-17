@@ -1,0 +1,9 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Stock Simulation",
+    "section": "",
+    "text": "Loading BokehJS ...\n    \nStock simulation where growth rate is normally distributed.\n\n\n\n\n\n\n\n  \n\n\n\n\n\nSource: sim.ipynb"
+  }
+]

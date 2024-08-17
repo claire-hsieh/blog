@@ -1,0 +1,13 @@
+---
+title: "Stock Simulation"
+date: "2024-08-17"
+image: ""
+categories: [simulation]
+toc: true
+
+comments:
+  utterances:
+    repo: claire-hsieh/blog
+---
+
+{{< embed ./sim.ipynb#stock-sim >}}
